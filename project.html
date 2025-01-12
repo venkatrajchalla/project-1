@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PROJECT-1</title>
+  <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+  <div class="main-container">
+    <header>
+      <nav><a class="header" href="#home">HOME</a></nav>
+      <nav><a class="header" href="#about">ABOUT</a></nav>
+      <nav><a class="header" href="#menu">MENU</a></nav>
+      <nav><a class="header" href="#where">WHERE</a></nav>
+    </header>
+    <div class="container-1">
+      <img src="./projectimage.jpg">
+    </div>
+    <span class="open" style="font-size: 20px;">
+      <pre> Open from 6am to 5pm </pre>
+    </span>
+    <span class="the" style="font-size:90px"> the</span>
+    <span class="cafe" style="font-size:90px"> Cafe</span>
+    <span class="street" style="font-size: 15px;">15 Adr street, 5015</span>
+  </div>
+  <div class="container-2" id="about">
+
+      <div class="about-section" style="max-width:700px">
+        <center><pre><h4> A B O U T   T H E   C A F E 
+
+        </h4></pre>
+        <p>
+          The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+          consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <p>
+          In addition to our full espresso and brew bar menu, we serve fresh made-to-order
+          breakfast and lunch sandwiches, as well as a selection of sides and salads
+          and other good stuff.
+        </p>
+        <blockquote>
+          <p>
+            "Use products from nature for what it's worth - but never too early, nor too late."
+            Fresh is the new sweet.
+          </p>
+          <footer>Chef, Coffeeist and Owner: <strong>Liam Brown</strong></footer>
+        </blockquote>
+      </div><br>
+    </center>
+    <center>
+      <img src="./projectimage2.jpg" class="about-image"></center>
+      <pre><p class="Opening-hours"><strong>
+
+                                                                                            Opening hours:</strong> everyday from 6am to 5pm.</p>
+      <p class="address"><strong>                                                                                            Address:</strong> 15 Adr street, 5015, NY</p></pre>
+  </div><br>
+
+  <center><pre>
+    
+    
+    <h4>T H E   M E N U</h4>
+  
+  </pre></center><br>
+  <center>
+ <div class="container-3" id="menu">
+  <div class="tabs">
+    <button class="tab-button active" onclick="openTab('eat')">Eat</button>
+    <button class="tab-button" onclick="openTab('drink')">Drink</button>
+</div>
+<div class="tab-content" id="eat">
+    <h6>Bread Basket</h6>
+    <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+    <h6>Honey Almond Granola with Fruits</h6>
+    <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+    <h6>Belgian Waffle</h6>
+    <p>Vanilla flavored batter with malted flour 7.50</p>
+    <h6>Scrambled Eggs</h6>
+    <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+    <h6>Blueberry Pancakes</h6>
+    <p>With syrup, butter and lots of berries 8.50</p>
+  
+</div>
+<div class="tab-content" id="drink" style="display: none;">
+    <h6>Coffee</h6>
+    <p>Regular Coffee 2.50</p>
+    <h6>Chocolate</h6>
+    <p>Chocolate expresso with milk 4.50</p>
+    <h6>Corretto</h6>
+    <p>whiskey and coffee 5.00</p>
+    <h6>Iced tea</h6>
+    <p>Hot tea, expect not hot 3.00</p>
+    <h6>Soda</h6>
+    <p>Coke, Sprite, Fanta, etc. 2.50</p>
+    </div>
+
+</div>
+</center>
+<script>
+  function openTab(tabName) {
+      const tabContents = document.querySelectorAll('.tab-content');
+      const tabButtons = document.querySelectorAll('.tab-button');
+      tabContents.forEach((tab) => tab.style.display = 'none');
+      tabButtons.forEach((btn) => btn.classList.remove('active'));
+      document.getElementById(tabName).style.display = 'block';
+      event.target.classList.add('active');
+  }
+</script>
+<br>
+<br>
+<br>
+<div class="container-4">
+  <center>
+  <img src="./projectimage3.jpg" class="coffee-image">
+  <pre>
+    
+    
+    <h4 id="where"> W H E R E   T O   F I N D   U S </h4>
+
+
+  </pre>
+  </center>
+</div>
+<div class="container-5"></div>
+<pre><p style="font-size:;">
+                                                                                           Find us at some address at some place.
+
+</p></pre><center>
+<img src="./projectimage4.jpg" class="map"></center><br>
+<br>
+<br>
+<div class="container-6">
+  <pre><p><h4>FYI!</h4> We offer full-service catering for any event, large or small. We understand your needs and
+    
+     we will cater the food to satisfy the biggest criteria of them all, both look and taste.</p>
+    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+  </pre>
+    <form action="response.html" method="get">
+      <input type="text" id="name" name="name" placeholder="Name"><br><br>
+
+      <input type="number" id="people" name="people" placeholder="How many people"><br><br>
+
+    
+      <input type="datetime-local" id="date" name="date"><br><br>
+      <textarea id="message" name="message" rows="4" placeholder="Message / Special requirements" class="textarea"></textarea><br><br>
+
+      <input type="submit" value="SEND MESSAGE" class="message">
+    </form>
+</div>
+<center>
+<pre>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/tryw3css_templates_cafe.htm#about">w3.css</a></p></pre>
+</center>
+</body>
+<html>

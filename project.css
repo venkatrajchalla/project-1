@@ -1,0 +1,284 @@
+*{
+    margin: 0PX;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inconsolata", sans-serif;
+
+}
+main-container{
+    position: relative;
+}
+header{
+    background-color: black;
+    color: #fff;
+    position: fixed;
+    border-radius: 2;
+    top: 0%;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: 0;
+    z-index: 999;
+}
+.header{
+    color: #fff;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 10px;
+
+}
+
+a:hover{
+    background-color: rgb(189, 188, 188);
+    color: #000;
+    margin-left: 15px;
+    margin-right: 35px;
+    transition: 0.4 ease;
+}
+.container-1{
+    width: 100%;
+    height: 650px;
+}
+img{
+    width: 100%;
+    height: 600px;
+    
+}
+.open{
+    position: absolute;
+    height: 25px;
+    bottom: 150px;
+    left: 20px;
+    background-color: black;
+    color: white;
+}
+.the{ position: absolute;
+    top: 155px;
+    color: #f2efef;
+    left: 50%;
+    font-family:
+
+        width: 100vw;
+    
+
+}
+.cafe{
+   position: absolute;
+   top: 280px;
+   color: #f2efef;
+   left: 48%;
+   font-family:sans-serif
+   
+}
+.street{
+    position: absolute;
+    bottom: 150px;
+    right: 20px;
+    color: #fff;
+}
+ h4{ display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 8px;
+    height: 30px;
+
+ }
+
+.about-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.about-section h1 {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+.about-section p {
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+blockquote {
+    margin: 30px 0;
+    padding: 15px;
+    background: #f1f1f1;
+    border-left: 5px solid #000;
+    font-style: italic;
+}
+
+blockquote p {
+    margin: 0;
+}
+blockquote footer {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: right;
+    color: #555;
+}
+.about-image{
+    width: 46%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-3{
+    width: 46%;
+    height: 350px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.menu-section {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.menu-section h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    padding: 10px 160px;
+    border: 1px solid #ccc;
+    background-color: #f5f4f4;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tab-button.active {
+    background-color: #fff;
+    border-bottom: none;
+    color: #333;
+}
+
+.tab-button:hover {
+    background-color: rgb(197, 193, 193);
+}
+
+.tab-content {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0 5px 5px ;
+}
+.tab-content h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.tab-content p {
+    margin: 0;
+    font-size: 16px;
+}
+h6{
+    font-size: 18px;
+}
+.container-3 .tab-content p{
+    font-size: 10p5;
+}
+.coffee-image{
+    width: 46%;
+    height: 350px;
+}
+.map{
+    width: 46%;
+    height:350px;
+}
+.container-6{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  .container-6{
+    width: 48%;
+
+
+  }
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+   
+  input{
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.textarea{
+    width: 100%;
+    height:50px ;
+    margin-left: 10px;
+    border: 1px solid;
+}
+.message{
+    width: auto;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
